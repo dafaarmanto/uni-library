@@ -1,0 +1,1 @@
+ALTER TABLE "books" RENAME COLUMN "total_copie" TO "total_copies";
