@@ -16,6 +16,7 @@ const Home = async () => {
 
   return (
     <>
+      {/* @ts-ignore */}
       <BookOverview {...latestBook[0]} userId={session?.user?.id as string} />
       <BookList
         title="Latest Books"
